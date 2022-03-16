@@ -1,0 +1,33 @@
+﻿@page
+@model ZakatCalculator
+@{
+    ViewData["Title"] = "Zakat Calculator";
+}
+<h2>@ViewData["Title"]</h2>
+<body style="background-color:AntiqueWhite;">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/BCoePhCIgpE"></iframe>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+    <div data-ng-app="" data-ng-init="quantity=1;">
+
+        <h3>Input your weekly income</h3>
+
+        Weekly income: <input type="number" ng-model="quantity">
+
+
+        <p><b>How much zakat you should donate a week:</b> {{quantity * 0.025}}</p>
+
+        <a class="btn btn-default">
+            <btn onclick="location.href='https://buy.stripe.com/test_9AQg2ObVr2bw7ZK5ks'">
+                Pay Zakat
+        </a>
+    </div>
+    <h4> Brief description:</h4>
+    <p>
+        Zakat is the third pillar of Islam. It requires Muslims to give 2.5% of their qualifying wealth each year to help Muslims who need it across a range of categories. Zakat is both a spiritual duty and a vital part of the Islamic social welfare system.
+
+        Zakat is more than just a payment or a random act of charity. It’s a unique form of religious social welfare which benefits the whole community.
+    </p>
+    </body>

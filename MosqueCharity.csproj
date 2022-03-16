@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Stripe.net" Version="39.93.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Pages\EmptyJSFile.js" />
+    <None Remove="Pages\:Users:sadman:Projects:MosqueCharity:MosqueCharity:Pages:Appeals.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\charity.jpg" />
+    <Content Remove="wwwroot\images\prayermat.jpg" />
+    <Content Remove="wwwroot\images\largemosque.jpg" />
+    <Content Remove="wwwroot\images\smallmosque.jpg" />
+    <Content Remove="wwwroot\images\smallmosque.jpg" />
+    <Content Remove="wwwroot\images\mediummosque.jpg" />
+    <Content Remove="wwwroot\css\EmptyCSSFile.css" />
+    <Content Remove="wwwroot\images\winterM.jpg" />
+    <Content Remove="wwwroot\images\orphan.jpg" />
+    <Content Remove="wwwroot\images\water.jpg" />
+    <Content Remove="wwwroot\images\palestine.jpg" />
+    <Content Remove="wwwroot\images\smlmosque.jpg" />
+    <Content Remove="wwwroot\images\speakerscorner.jpg" />
+    <Content Remove="wwwroot\images\hydepark.jpg" />
+    <Content Remove="wwwroot\images\ramadan.jpg" />
+    <Content Remove="wwwroot\images\iqra.jpg" />
+    <Content Remove="wwwroot\images\learnislam.jpg" />
+    <Content Remove="wwwroot\images\aboutus.jpg" />
+    <Content Remove="wwwroot\images\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\images\charity.jpg" />
+    <None Include="wwwroot\images\prayermat.jpg" />
+    <None Include="wwwroot\images\mediummosque.jpg" />
+    <None Include="wwwroot\images\largemosque.jpg" />
+    <None Include="wwwroot\images\winterM.jpg" />
+    <None Include="wwwroot\images\orphan.jpg" />
+    <None Include="wwwroot\images\water.jpg" />
+    <None Include="wwwroot\images\palestine.jpg" />
+    <None Include="wwwroot\images\smlmosque.jpg" />
+    <None Include="wwwroot\images\hydepark.jpg" />
+    <None Include="wwwroot\images\ramadan.jpg" />
+    <None Include="wwwroot\images\iqra.jpg" />
+    <None Include="wwwroot\images\learnislam.jpg" />
+    <None Include="wwwroot\images\aboutus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\Startup.cs" />
+    <Compile Remove="Controllers\HomeController.cs" />
+    <Compile Remove="Pages\HomeController.cs" />
+    <Compile Remove="Pages\StripeSettings.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<h2>@ViewData["Title"]</h2>
+<h3></h3>
+<body style="background-color:AntiqueWhite;">
+    <address>
+
+        <abbr title="Phone">Donation Hotline:</abbr>
+        +02044902930190
+        <p>Alternative Number: +02044902930199<br /></p>
+        Message Us: +02044902930180<br />
+
+    </address>
+    <h2>Send your comment/query via email:</h2>
+
+    <form action="mailto:sadman200094@gmail.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br>
+        Comment:<br>
+        <input type="text" name="comment" size="50"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>

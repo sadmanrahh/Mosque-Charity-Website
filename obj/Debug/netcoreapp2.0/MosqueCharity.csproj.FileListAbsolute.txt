@@ -1,0 +1,11 @@
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/bin/Debug/netcoreapp2.0/MosqueCharity.deps.json
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/bin/Debug/netcoreapp2.0/MosqueCharity.runtimeconfig.json
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/bin/Debug/netcoreapp2.0/MosqueCharity.runtimeconfig.dev.json
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/bin/Debug/netcoreapp2.0/MosqueCharity.dll
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/bin/Debug/netcoreapp2.0/MosqueCharity.pdb
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.csprojAssemblyReference.cache
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.csproj.CoreCompileInputs.cache
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.AssemblyInfoInputs.cache
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.AssemblyInfo.cs
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.dll
+/Users/sadman/Projects/MosqueCharity/MosqueCharity/obj/Debug/netcoreapp2.0/MosqueCharity.pdb
